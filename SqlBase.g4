@@ -678,7 +678,7 @@ DECIMAL_VALUE
     ;
 
 IDENTIFIER
-    : (LETTER | '_') (LETTER | DIGIT | '_' | '@' | ':')*
+    : (LETTER | '_' | '$') (LETTER | DIGIT | '_' | '@' | ':' )*
     ;
 
 DIGIT_IDENTIFIER
